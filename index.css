@@ -1,0 +1,36 @@
+.history-item-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.details {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+}
+.time {
+  width: 80px;
+}
+.domain-details {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  margin-left: 15px;
+}
+.icon {
+  height: 25px;
+  width: 25px;
+  margin-right: 20px;
+}
+.title {
+  margin-right: 20px;
+}
+.history-url {
+  color: #475569;
+}
+.delete-button {
+  background-color: #ffffff;
+  border: none;
+}
